@@ -169,7 +169,7 @@ $(function() {
 	                	"data": 'handleMsg',
                         "width":'12%',
 	                	"render": function ( data, type, row ) {
-	                		return data?'<a class="logTips" href="javascript:;" >'+ I18n.system_show +'<span style="display:none;">'+ data +'</span></a>':I18n.system_empty;
+	                		return data;
 	                	}
 	                },
 	                {

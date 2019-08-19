@@ -23,7 +23,7 @@ public class ExecutorBizTest {
 
         // param
         String jobHandler = "demoJobHandler";
-        String params = "";
+        String params = "888";
 
         runTest(jobHandler, params);
     }
